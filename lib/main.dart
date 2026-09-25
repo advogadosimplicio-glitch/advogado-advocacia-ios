@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() {
-  runApp(const AdvogadoSimplicioApp());
+  runApp(const AdvogadoAdvocaciaApp());
 }
 
-class AdvogadoSimplicioApp extends StatelessWidget {
-  const AdvogadoSimplicioApp({super.key});
+class AdvogadoAdvocaciaApp extends StatelessWidget {
+  const AdvogadoAdvocaciaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Advogado Simplício',
+      title: 'Advogado Advocacia',
       theme: ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFF6F8FB),
@@ -371,7 +371,7 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(20, 22, 20, 28),
           child: Column(
             children: [
-              const Text('ADVOGADO SIMPLÍCIO',
+              const Text('ADVOGADO ADVOCACIA',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 27,
